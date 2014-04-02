@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pictures xml:space="preserve">
+	<picture noThumbnail="true" filename="*/images/chapter_2/ocean-background.jpg" noShadow="true" grungeEdgeMask="true" restoreLayersOnZoomOut="true" x="542" y="39" width="432" height="690" absolute="true">
+	</picture>
+	
+	
+	<picture noThumbnail="true" filename="*/images/chapter_2/canopy.png" noShadow="true" droptarget="true" dropgroup="canopy,all" action="dropObject" params="move" x="542" y="39" width="432" height="157" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/midlayer.png" noShadow="true" droptarget="true" dropgroup="midlayer,all" action="dropObject" params="move" x="542" y="196" width="432" height="358" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/seafloor.png" noShadow="true" droptarget="true" dropgroup="seafloor,all" action="dropObject" params="move" x="542" y="554" width="432" height="175" absolute="true">
+	</picture>
+	
+	
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast.png" noShadow="true" noReplace="true" x="528" y="144" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast.png" noShadow="true" noReplace="true" x="713" y="144" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast.png" noShadow="true" noReplace="true" x="669" y="144" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast.png" noShadow="true" noReplace="true" x="559" y="151" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast-b.png" noShadow="true" x="488" y="159" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/kelp-with-holdfast-b.png" noShadow="true" x="621" y="155" width="219" height="570" absolute="true">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/sea-otter-small.png" noShadow="true" draggable="true" dropgroup="all" XsingleUse="false" x="92" y="543" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Sea Otter">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/sea-cucumber-small.png" noShadow="true" draggable="true" dropgroup="seafloor" XsingleUse="false" x="92" y="640" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Sea Cucumber">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/purple-sea-urchin-small.png" noShadow="true" draggable="true" dropgroup="seafloor" XsingleUse="false" x="284" y="640" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Purple Sea Urchin">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/blue-rockfish-small.png" noShadow="true" draggable="true" dropgroup="midlayer" XsingleUse="false" x="281" y="543" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Blue Rockfish">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/common-market-squid-small.png" noShadow="true" draggable="true" dropgroup="midlayer" XsingleUse="false" x="188" y="543" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Common Market Squid">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/giant-pacific-octopus-small.png" noShadow="true" draggable="true" dropgroup="seafloor" XsingleUse="false" x="188" y="640" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Giant Pacific Octopus">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/lingcod-small.png" noShadow="true" draggable="true" dropgroup="seafloor" XsingleUse="false" x="379" y="543" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Lingcod">
+	</picture>
+	<picture noThumbnail="true" filename="*/images/chapter_2/senorita-small.png" noShadow="true" draggable="true" dropgroup="all" XsingleUse="false" x="379" y="640" width="65" height="65" absolute="true" dragWidth="65" dragHeight="65" label="Senorita">
+	</picture>
+</pictures>

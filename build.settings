@@ -1,0 +1,87 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeLeft",
+		supported =
+		{
+			"landscapeLeft", "landscapeRight"
+		},
+	},
+
+    plugins =
+    {
+        ["facebook"] =
+        {
+            publisherId = "com.coronalabs",
+            supportedPlatforms = { iphone=true, ["iphone-sim"]=true },
+        },
+    },
+
+	iphone = {
+		plist = {
+			UIAppFonts = 
+                        {
+                        },
+			UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+			UISupportedInterfaceOrientations =
+			{
+				"UIInterfaceOrientationLandscapeLeft",
+				"UIInterfaceOrientationLandscapeRight"
+			},
+			
+			UIPrerenderedIcon="YES",
+			UIStatusBarHidden=true,
+			CFBundleDisplayName="DragDrop",
+			UIApplicationExitsOnSuspend = false,
+
+			FacebookAppID = "209517742441628",
+            CFBundleURLTypes =
+            {
+                {
+                    CFBundleURLSchemes =
+                    {
+                        "fb209517742441628",
+                        "fb209517742441628mbakelpforest",
+                    }
+                }
+            },
+			CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles = {
+						"Icon.png",
+						"Icon@2x.png",
+						"Icon-40.png",
+						"Icon-40@2x.png",
+						"Icon-60.png",
+						"Icon-60@2x.png",
+						"Icon-72.png",
+						"Icon-72@2x.png",
+						"Icon-76.png",
+						"Icon-76@2x.png",
+						"Icon-Small-50.png",
+						"Icon-Small-50@2x.png",
+						"Icon-Small.png",
+						"Icon-Small@2x.png"
+			},
+		},
+	},
+	
+	
+	android =
+	{
+		usesPermissions =
+		{
+			"android.permission.INTERNET",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
+		},
+	},
+
+	
+}
+
+settings.iphone.plist["UIInterfaceOrientation~ipad"] = "UIInterfaceOrientationLandscapeLeft"
+settings.iphone.plist["UISupportedInterfaceOrientations~ipad"] = 
+{
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+}
